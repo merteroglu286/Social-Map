@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "648674913151",
+    "firebase_url": "https://socialmapp-a60ec-default-rtdb.firebaseio.com",
+    "project_id": "socialmapp-a60ec",
+    "storage_bucket": "socialmapp-a60ec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648674913151:android:7121290738a7cb872c484a",
+        "android_client_info": {
+          "package_name": "com.example.socialmap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648674913151-f2f7aeosb35bp4o54rskbsc534sbv1cu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.socialmap",
+            "certificate_hash": "a765a078293531858461a9d699055ebb7bd50e48"
+          }
+        },
+        {
+          "client_id": "648674913151-51av8nd0vpemhc03m6pu27slqub4gt8r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALfFCYu1iFq6JMZYl5je1CLqNdM8h5Zzk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648674913151-51av8nd0vpemhc03m6pu27slqub4gt8r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

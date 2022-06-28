@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/btnMap"
+        android:enabled="true"
+        android:title="Map"
+        app:cnb_backgroundColor="@color/white"
+        android:icon="@drawable/ic_baseline_map_24"
+        app:cnb_iconColor="@color/myColor"
+        app:cnb_textColor="@color/myColor" />
+
+    <item
+        android:id="@+id/btnChat"
+        android:enabled="true"
+        android:title="Chat"
+        app:cnb_backgroundColor="@color/white"
+        android:icon="@drawable/ic_baseline_chat_24"
+        app:cnb_iconColor="@color/myColor"
+        app:cnb_textColor="@color/myColor" />
+
+    <item
+        android:id="@+id/btnContact"
+        android:enabled="true"
+        android:title="Contact"
+        app:cnb_backgroundColor="@color/white"
+        android:icon="@drawable/ic_baseline_contacts_24"
+        app:cnb_iconColor="@color/myColor"
+        app:cnb_textColor="@color/myColor" />
+
+    <item
+        android:id="@+id/btnProfile"
+        android:enabled="true"
+        android:title="Mine"
+        app:cnb_backgroundColor="@color/white"
+        android:icon="@drawable/ic_baseline_person_24"
+        app:cnb_iconColor="@color/myColor"
+        app:cnb_textColor="@color/myColor" />
+
+
+
+</menu>

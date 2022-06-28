@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/getNumber">
+
+    <fragment
+        android:id="@+id/verifyNumber"
+        android:name="com.example.socialmap.fragments.VerifyNumber"
+        android:label="VerifyNumber" >
+        <action
+            android:id="@+id/action_verifyNumber_to_getUserData"
+            app:destination="@id/getUserData" />
+    </fragment>
+    <fragment
+        android:id="@+id/getUserData"
+        android:name="com.example.socialmap.fragments.GetUserData"
+        android:label="fragment_get_user_data"
+        tools:layout="@layout/fragment_get_user_data" />
+    <fragment
+        android:id="@+id/getNumber"
+        android:name="com.example.socialmap.fragments.GetNumber"
+        android:label="fragment_get_number"
+        tools:layout="@layout/fragment_get_number" >
+        <action
+            android:id="@+id/action_getNumber_to_verifyNumber"
+            app:destination="@id/verifyNumber" />
+    </fragment>
+</navigation>
